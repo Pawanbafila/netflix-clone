@@ -422,3 +422,46 @@
      
     }
 }
+
+
+
+
+
+@media (max-width: 600px) {
+
+    main nav .row{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap !important;
+        height: auto;
+        
+    }
+
+    main nav .logo{
+        padding: 0 0 0 10px;
+    }
+    main nav .logo img {
+        width: 90px;
+    }
+    main nav .nav-list{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: white;
+        padding: 0 0;
+        justify-self: flex-end;
+    }
+    main nav .nav-list> *:first-child{
+      margin-right: 50px;
+    
+    }
+    main nav .nav-list> *:last-child{
+        padding: 5px 10px;
+        background-color: #E50914;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    
+    }
+    
+}
