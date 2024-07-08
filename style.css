@@ -37,6 +37,11 @@ body {
 
 }
 
+.btn-hover:hover{
+    background-color: #de000bdd !important;
+    
+}
+
 body {
     font-family: netflix2;
     background-color: #232323;
