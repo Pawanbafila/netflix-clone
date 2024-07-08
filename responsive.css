@@ -529,7 +529,12 @@
     }
 }
 @media (max-width: 310px) {
-  main nav{
+  
+  main{
+    height: 70%;
+  }
+  
+    main nav{
     padding: 0 0 !important;
   }
     main nav .row {
@@ -542,6 +547,12 @@
         height: auto;
         margin: auto;
 
+    }
+    body p{
+        font-size: 10px !important;
+    }
+    body h1{
+        font-size: 20px !important;
     }
 
     main nav .logo {
