@@ -6,7 +6,7 @@
 
 html,
 body {
-    height: 100%;
+   height: auto;
     width: 100%;
 
 }
@@ -286,3 +286,37 @@ main .tagline .input-groups label {
 }
 
 .first-part .img-fp video {}
+
+
+
+
+/******************************************************************
+* Here our last 2nd qna part start 
+*******************************************************************/
+
+
+.qna{
+    width: 100%;
+    height: fit-content;
+    color: white;
+    background-color: #000000;
+    margin-top: 10px !important;
+    padding: 50px; 
+}
+.qna h2{
+    font-family: netflix2;
+    font-weight: bold;
+    text-align: center;
+}
+.qna .qna-box{
+    height: 10%;
+    width: 90%;
+    background-color: #717171;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.qna .qna-box:hover{
+    background-color: #585858;
+}
