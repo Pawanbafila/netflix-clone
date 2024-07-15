@@ -21,17 +21,35 @@ function stop(){
 
 }
 
-function plus1() {
-    var plus = document.querySelector(".qna-box i");
-    if (plus.classList.contains("fa-plus"))
-    {
-
-        plus.classList.remove("fa-plus");
-        plus.classList.add("fa-xmark");
-    }else{
-        plus.classList.add("fa-plus");
-        plus.classList.remove("fa-xmark");
-    }
 
 
-}
+// /*this is frequently asked question*/
+
+// function plus1() {
+//     var plus = document.querySelector(".qna-box i");
+//     if (plus.classList.contains("fa-plus"))
+//     {
+
+//         plus.classList.remove("fa-plus");
+//         plus.classList.add("fa-xmark");
+//     }else{
+//         plus.classList.add("fa-plus");
+//         plus.classList.remove("fa-xmark");
+//     }
+
+
+// }
+// function plus1() {
+//     var plus = document.querySelector(".qna-box i");
+//     if (plus.classList.contains("fa-plus"))
+//     {
+
+//         plus.classList.remove("fa-plus");
+//         plus.classList.add("fa-xmark");
+//     }else{
+//         plus.classList.add("fa-plus");
+//         plus.classList.remove("fa-xmark");
+//     }
+
+
+// }

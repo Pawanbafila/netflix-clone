@@ -8,7 +8,6 @@ html,
 body {
    height: 100%;
     width: 100%;
-
 }
 
 
@@ -295,28 +294,37 @@ main .tagline .input-groups label {
 *******************************************************************/
 
 
-.qna{
-    width: 100%;
-    height: fit-content;
+.asked{
     color: white;
-    background-color: #000000;
-    margin-top: 10px !important;
-    padding: 50px; 
-}
-.qna h2{
     font-family: netflix2;
     font-weight: bold;
     text-align: center;
 }
-.qna .qna-box{
-    height: 10%;
-    width: 90%;
-    background-color: #717171;
-    padding: 0 10px;
+.asked .asked-box{
+    border-radius: 50px !important;
+}
+
+/******************************************************************
+* Here our footer part start 
+*******************************************************************/
+
+
+footer {
+    background-color: black;
+    padding: 10px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
 }
-.qna .qna-box:hover{
-    background-color: #585858;
+
+footer .footer-wraper .row .footer-list {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+footer .footer-wraper .row .footer-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
 }
